@@ -1,7 +1,6 @@
 # YouTube Safe Kids
 
 <h1 align="center">
-    <img alt="Logo" src="app/static/img/logo.jpg" />
     <img alt="YouTubeSafeKids" src="app/static/img/logo.svg" width="100" height="100"/>
 </h1>
 
@@ -9,28 +8,22 @@
   Plataforma de Pesquisa de Conteúdos Infantis Seguros no YouTube
 </h3>
 
-<p align="center">Filtragem Avançada de Conteúdos Infantis</p>
+<p align="center"><strong>Versão atual com foco na implementação do filtro de Toxicidade (NLP)</strong></p>
 
 <p align="center"></p>
 
 ## Sobre o projeto
 
-Uma aplicação web que ajuda a encontrar vídeos seguros e apropriados para crianças no YouTube.
+Uma aplicação web que ajuda a encontrar vídeos seguros e apropriados para crianças no YouTube. A versão atual tem como foco principal a implementação e avaliação do **filtro de Toxicidade**, utilizando técnicas de Processamento de Linguagem Natural (NLP) para classificar comentários de vídeos quanto ao nível de toxicidade.
 
 ## Funcionalidades
 
 - Busca de vídeos no YouTube Kids
-- Filtros de conteúdo:
-  - Duração
-  - Faixa etária
-  - Conteúdo educacional
-  - Toxicidade
-  - Linguagem
-  - Diversidade
-  - Interatividade
-  - Engajamento
-  - Sentimento
-  - Conteúdo sensível
+- Filtros de conteúdo implementados:
+  - **Duração** · `MD` (metadados)
+  - **Engajamento** · `MD` (metadados)
+  - **Sentimento** · `NLP` (Processamento de Linguagem Natural)
+  - **Toxicidade** · `NLP` (Processamento de Linguagem Natural) — *foco desta versão*
   
 ## :notebook_with_decorative_cover: Arquitetura do Sistema <a name="-architecture"/></a>
 
